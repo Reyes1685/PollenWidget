@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tuapp.pollenwidget"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:5:5-66
+11-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.tuapp.pollenwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.tuapp.pollenwidget.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:7:5-23:19
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.12.0] /data/data/com.termux/files/home/.gradle/caches/9.5.1/transforms/e9523ff89790262e7bda77e006c4f924/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@mipmap/ic_launcher"
+23-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:9:9-43
+24        android:label="Polen Madrid" >
+24-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:8:9-37
+25        <receiver
+25-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:11:9-21:20
+26            android:name="com.tuapp.pollenwidget.PollenWidget"
+26-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:12:13-41
+27            android:exported="true" >
+27-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:13:13-36
+28            <intent-filter>
+28-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:14:13-17:29
+29                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+29-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:15:17-83
+29-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:15:25-81
+30                <action android:name="com.tuapp.pollenwidget.REFRESH" />
+30-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:16:17-72
+30-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:16:25-70
+31            </intent-filter>
+32
+33            <meta-data
+33-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:18:13-20:61
+34                android:name="android.appwidget.provider"
+34-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:19:17-58
+35                android:resource="@xml/pollen_widget_info" />
+35-->/data/data/com.termux/files/home/PollenWidget/app/src/main/AndroidManifest.xml:20:17-59
+36        </receiver>
+37    </application>
+38
+39</manifest>

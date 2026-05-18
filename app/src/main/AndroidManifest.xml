@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuapp.pollenwidget">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:label="Polen Madrid"
+        android:icon="@mipmap/ic_launcher">
+
+        <receiver
+            android:name=".PollenWidget"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+                <action android:name="com.tuapp.pollenwidget.REFRESH"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/pollen_widget_info"/>
+        </receiver>
+
+    </application>
+</manifest>

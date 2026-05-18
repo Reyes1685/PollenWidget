@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.tuapp.pollenwidget.app-debug-8:/layout_widget_pollen.xml.flat",
+        "source": "com.tuapp.pollenwidget.app-main-10:/layout/widget_pollen.xml"
+    },
+    {
+        "merged": "com.tuapp.pollenwidget.app-debug-8:/drawable_widget_bg.xml.flat",
+        "source": "com.tuapp.pollenwidget.app-main-10:/drawable/widget_bg.xml"
+    },
+    {
+        "merged": "com.tuapp.pollenwidget.app-debug-8:/xml_pollen_widget_info.xml.flat",
+        "source": "com.tuapp.pollenwidget.app-main-10:/xml/pollen_widget_info.xml"
+    }
+]

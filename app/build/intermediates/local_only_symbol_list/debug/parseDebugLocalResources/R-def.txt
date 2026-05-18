@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+drawable widget_bg
+id btn_refresh
+id tv_alder
+id tv_birch
+id tv_grass
+id tv_level_label
+id tv_status
+id widget_root
+layout widget_pollen
+string app_name
+xml pollen_widget_info
