@@ -6,7 +6,7 @@
 
     <application
         android:label="Polen Madrid"
-        android:icon="@mipmap/ic_launcher">
+        >
 
         <receiver
             android:name=".PollenWidget"
